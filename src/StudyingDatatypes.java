@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class StudyingDatatypes {
      public static void main(String [] args){
          System.out.println("I shall Use some datatypes to store data ");
@@ -13,6 +14,10 @@ public class StudyingDatatypes {
          String line="Hello! I am Ankit Khadka";
          System.out.println(line);
 //         System.out.print(answer);
-
+         ////Now let's get input from user:)
+         Scanner input =new Scanner(System.in);
+         String name =input.nextLine();
+         System.out.print("Welcome ");
+         System.out.println(name);
      }
 }
