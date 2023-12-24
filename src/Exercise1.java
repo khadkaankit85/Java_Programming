@@ -1,6 +1,6 @@
-//Write a program to calculate percentage of a given student in cbse board exam.
-//His marks from 5 subjects must be taken as input from the keyboard (Marks are out of hundred)
-
+/*Write a program to calculate percentage of a given student in cbse board exam.
+His marks from 5 subjects must be taken as input from the keyboard (Marks are out of hundred)
+*/
 import java.util.Scanner;
 public class Exercise1 {
     public static void main(String [] args){
