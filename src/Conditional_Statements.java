@@ -2,8 +2,9 @@ import java.util.Scanner;
 public class Conditional_Statements {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
-        System.out.println("Enter Your age below: ");
+       System.out.println("Enter Your age below: ");
         int age=input.nextInt();
+        /*
         if(age>18){
             System.out.println("You can drive.");
         }
@@ -21,6 +22,18 @@ public class Conditional_Statements {
         }
         else{
             System.out.println("No! You cannot drive.");
+        }*/
+
+        //Switch Statement
+        switch (age){
+            case 18:
+                System.out.println("You are eighteen.");
+                break;//if there is no break, its gonna execute all the cases
+            case 19:
+                System.out.println("You are nineteen.");
+
+            case 20:
+                System.out.println("YOu are twenty.");
         }
     }
 }
