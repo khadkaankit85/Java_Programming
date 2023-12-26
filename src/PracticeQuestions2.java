@@ -10,7 +10,6 @@ public class PracticeQuestions2 {
 //        float a= input.nextFloat();
 //        System.out.println(a>8);
         //3. print some formula:)
-        System.out.println(2*'a'*'s');
     }
 }
 //public class PracticeQuestions2 {
